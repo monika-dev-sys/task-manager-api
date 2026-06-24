@@ -16,12 +16,22 @@ const TaskSchema = new mongoose.Schema({
     enum: ['pending', 'completed'],
     default: 'pending'
   },
+  priority: {
+    type: String,
+    enum: ['low', 'medium', 'high'],
+    default: 'medium'
+  },
+  category: {
+    type: String,
+    enum: ['work', 'personal', 'study', 'health'],
+    default: 'personal'
+  },
   dueDate: Date
 }, {
   timestamps: true
 });
 
-// Auto-increment `id` on save
+// Auto-increment id on save
 TaskSchema.pre('save', async function (next) {
   if (!this.isNew) return next();
 
