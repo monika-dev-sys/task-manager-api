@@ -1,9 +1,4 @@
 # task-manager-api
-Here’s a complete **README.md** for your project based on everything you’ve built so far, plus planned improvements.
-
-You can directly copy this into a `README.md` file in your GitHub repo.
-
----
 
 # Task Manager Dashboard 🚀
 
