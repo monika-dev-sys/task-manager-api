@@ -1,6 +1,6 @@
 # task-manager-api
 
-# Task Manager Dashboard 🚀
+# Task Manager Dashboard 
 
 A full-stack Task Manager application built using **MongoDB, Express.js, React, and Node.js (MERN Stack)**.
 
@@ -101,7 +101,7 @@ task-manager-frontend/
 
 ---
 
-# Features Implemented ✅
+# Features Implemented 
 
 ## Backend Features
 
@@ -454,7 +454,7 @@ Task removed from UI and database.
 
 ---
 
-# Remaining Improvements 🚀
+# Remaining Improvements 
 
 ## Backend
 
